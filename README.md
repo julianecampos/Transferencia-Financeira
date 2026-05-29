@@ -65,24 +65,25 @@ O front-end foi desenvolvido em **Vue.js 3**. A comunicação com a API é feita
 
 ## Estrutura do Projeto:
 
-Transferencia-Financeira/
+```
 Transferencia-Financeira/
 ├── backend/
 │   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/transferencias/transferencias_api/
-│   │   │   │   ├── controller/AgendamentoController.java
-│   │   │   │   ├── model/Agendamento.java
-│   │   │   │   ├── repository/AgendamentoRepository.java
-│   │   │   │   └── service/AgendamentoService.java
-│   │   │   └── resources/
-│   │   │       └── application.properties
+│   │   └── main/
+│   │       ├── java/com/transferencias/transferencias_api/
+│   │       │   ├── controller/AgendamentoController.java
+│   │       │   ├── model/Agendamento.java
+│   │       │   ├── repository/AgendamentoRepository.java
+│   │       │   └── service/AgendamentoService.java
+│   │       └── resources/
+│   │           └── application.properties
 │   └── pom.xml
 └── frontend/
-├── src/
-│   ├── App.vue
-│   └── main.js
-└── package.json
+    ├── src/
+    │   ├── App.vue
+    │   └── main.js
+    └── package.json
+```
 
 ## Como Rodar o Projeto:
 
